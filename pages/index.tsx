@@ -11,6 +11,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import Header from "../components/Header";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
             py={{ base: 20, md: 36 }}
           >
             <Header />
+            <Image src="/chad.jpeg" alt="" width="800" height="450" />
             <Stack
               direction={"column"}
               spacing={5}
